@@ -1,0 +1,21 @@
+Yo folks!
+This is the page where you'll get all the theory and explanations about the code, so let's begin!
+
+***************_1.Rent_Calculator_***************
+summery:
+    Suppose you live in a hostel or apartment and share your room with some colleagues or friends. 
+    You all share common accommodation bills and expenses that everyone needs to contribute toward. 
+    This program is designed to calculate the total expenses and divide them into equal parts 
+    so everyone can contribute equally.
+
+inputs = 
+    The inputs we need from the user are:
+        * Total rent
+        * Total food ordered for snacking
+        * Electricity units spent
+        * Charge per unit
+        * Number of persons living in the room
+
+output =
+    * Total amount to be paid overall
+    * Total amount each person needs to pay
