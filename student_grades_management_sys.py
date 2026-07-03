@@ -38,7 +38,25 @@ def main():
         print("4. view Student")
         print("5. Exit")
 
-        choice = int()
+        choice = int(input("Enter your choice = "))
+        if choice == 1:
+            name = input("Enter student name = ")
+            grade = int(input("Enter student grade = "))
+            add_student(name, grade)
+        elif choice == 2:
+            name = input("Enter student namee = ")
+            grade = int(input("Enter student grade = "))
+            update_student(name, grade)
+        elif choice == 3:
+            name = input("Enter student name = ")
+            delete_student(name)
+        elif choice == 4:
+            display_all_students()
+        elif choice == 5:
+            print("closing the program.....")
+            break
+        else:
+            print("Invalid choice, please try again...")
 
 
 
