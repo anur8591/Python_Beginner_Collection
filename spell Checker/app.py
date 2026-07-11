@@ -1,3 +1,4 @@
+#pip install pyspellchecker
 from spellchecker import SpellChecker
 
 class SpallCheckerApp:
